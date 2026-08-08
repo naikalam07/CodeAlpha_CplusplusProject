@@ -79,7 +79,7 @@ int main(){
     cin>>totalCreditHoursTillLastSem;
     CGPA = (( OldCgpa * totalCreditHoursTillLastSem ) + (GPA * totalCreditHours) ) / (totalCreditHours + totalCreditHoursTillLastSem );
 
-    cout<<"\n All Courses Details"<<endl;
+    cout<<"\n All Courses Details "<<endl;
     for(int i=0 ; i<no_of_Courses;i++){
         cout<<"======= Course "<<i+1<<" ========"<<endl;
         cout<<"Grade: "<<Grade<<", Credit Hours: "<<CreditHours<<endl;
