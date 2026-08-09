@@ -81,8 +81,8 @@ void UserLogin(){
             
             file.close();
 
-            cout<<"  Login Successful! "<<endl;
-            cout<<"  Welcome "<<username<<" ! "<<endl;
+            cout<<" --- \nLogin Successful! --- "<<endl;
+            cout<<"     Welcome "<<username<<" ! "<<endl;
 
             return;
         }
@@ -106,6 +106,7 @@ int main(){
         cout<<"3. Exit "<<endl;
 
         cout<<"Enter your Choice"<<endl;
+        
         cin>>choice;
 
         switch (choice)
